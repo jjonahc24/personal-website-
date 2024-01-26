@@ -2,12 +2,19 @@
 
 :root {
     font-size: 16px; 
-    font-family: Poppins;
+    font-family: "Poppins";
     --text-primary: #ffffff;
     --text-secondary: #ffffff;
     --bg-primary: #131316; 
     --bg-secondary: #131316; 
 }
+@font-face {
+    font-family: "Poppins";
+    src: url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+    font-style: normal;
+    font-weight: normal;
+}
+
 
 main {
     margin-left: 10rem;
@@ -70,7 +77,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar:hover {
     width: 8rem;
-}
+} 
 
 .navbar-nav .nav-link {
     overflow: hidden;
@@ -117,7 +124,7 @@ body {
     color: #131316; 
     padding: 0;
     margin: 0;  
-    font-family: Poppins;   
+    font-family: "Poppins", 
 }
 
 section {
@@ -167,7 +174,7 @@ main.row{
 	grid-column-gap: 20px;
 }
 .col header.title{
-	font-family: Poppins;
+	font-family: "Poppins";
 	color: #11a372;
 	padding: 0px 0px 20px 30px;
 }
@@ -206,7 +213,7 @@ main.row{
 .box h3{
 	font-size: 19px;
 	padding: 10px 0px 6px;
-	font-family: Poppins;
+	font-family: "Poppins";
 	color: #444;
 }
 .box p{
