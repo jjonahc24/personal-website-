@@ -1,4 +1,6 @@
-@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    }
 
 :root {
     font-size: 16px; 
@@ -8,13 +10,6 @@
     --bg-primary: #131316; 
     --bg-secondary: #131316; 
 }
-@font-face {
-    font-family: "Poppins";
-    src: url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
-    font-style: normal;
-    font-weight: normal;
-}
-
 
 main {
     margin-left: 10rem;
